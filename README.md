@@ -9,7 +9,8 @@ Sending transactional emails in C# is a fairly common practice. Instead of strug
 
 ### Add Nuget Packages in EmailDemo
 ```
-Install-Package Fluent.Email.Smtp
+Install-Package FluentEmail.Smtp
+Install-Package FluentEmail.Razor
 ```
 
 <img src="/pictures/received_mail.png" title="received mail"  width="600">
