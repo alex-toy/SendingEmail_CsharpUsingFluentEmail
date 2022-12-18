@@ -14,18 +14,6 @@
           "lib/netstandard2.0/FluentEmail.Core.dll": {}
         }
       },
-      "FluentEmail.Smtp/3.0.2": {
-        "type": "package",
-        "dependencies": {
-          "FluentEmail.Core": "3.0.2"
-        },
-        "compile": {
-          "lib/netstandard2.0/FluentEmail.Smtp.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/FluentEmail.Smtp.dll": {}
-        }
-      },
       "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
         "type": "package",
         "compile": {
@@ -33,19 +21,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
-        }
-      },
-      "Emails/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "FluentEmail.Core": "3.0.2"
-        },
-        "compile": {
-          "bin/placeholder/Emails.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Emails.dll": {}
         }
       }
     }
@@ -62,19 +37,6 @@
         "fluentemail.core.nuspec",
         "fluentemail_logo_64x64.png",
         "lib/netstandard2.0/FluentEmail.Core.dll"
-      ]
-    },
-    "FluentEmail.Smtp/3.0.2": {
-      "sha512": "Y5pZKS/mXSl7D5WJWecvfo1kpIMDc6U0VRU6wRbE9wEv2IqMH3cQXa/97Pwi+m31COepIqc6dMhGMtAJ2Qh7rw==",
-      "type": "package",
-      "path": "fluentemail.smtp/3.0.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "fluentemail.smtp.3.0.2.nupkg.sha512",
-        "fluentemail.smtp.nuspec",
-        "fluentemail_logo_64x64.png",
-        "lib/netstandard2.0/FluentEmail.Smtp.dll"
       ]
     },
     "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
@@ -96,17 +58,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "Emails/1.0.0": {
-      "type": "project",
-      "path": "../Emails/Emails.csproj",
-      "msbuildProject": "../Emails/Emails.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Emails >= 1.0.0",
-      "FluentEmail.Smtp >= 3.0.2"
+      "FluentEmail.Core >= 3.0.2"
     ]
   },
   "packageFolders": {
@@ -115,11 +71,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\source\\CsharpLibraries\\SendingEmail_CsharpUsingFluentEmail\\EmailDemoApp\\EmailDemo\\EmailDemo.csproj",
-      "projectName": "EmailDemo",
-      "projectPath": "C:\\source\\CsharpLibraries\\SendingEmail_CsharpUsingFluentEmail\\EmailDemoApp\\EmailDemo\\EmailDemo.csproj",
+      "projectUniqueName": "C:\\source\\CsharpLibraries\\SendingEmail_CsharpUsingFluentEmail\\EmailDemoApp\\Emails\\Emails.csproj",
+      "projectName": "Emails",
+      "projectPath": "C:\\source\\CsharpLibraries\\SendingEmail_CsharpUsingFluentEmail\\EmailDemoApp\\Emails\\Emails.csproj",
       "packagesPath": "C:\\Users\\alexe\\.nuget\\packages\\",
-      "outputPath": "C:\\source\\CsharpLibraries\\SendingEmail_CsharpUsingFluentEmail\\EmailDemoApp\\EmailDemo\\obj\\",
+      "outputPath": "C:\\source\\CsharpLibraries\\SendingEmail_CsharpUsingFluentEmail\\EmailDemoApp\\Emails\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alexe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -135,11 +91,7 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {
-            "C:\\source\\CsharpLibraries\\SendingEmail_CsharpUsingFluentEmail\\EmailDemoApp\\Emails\\Emails.csproj": {
-              "projectPath": "C:\\source\\CsharpLibraries\\SendingEmail_CsharpUsingFluentEmail\\EmailDemoApp\\Emails\\Emails.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -152,7 +104,7 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
-          "FluentEmail.Smtp": {
+          "FluentEmail.Core": {
             "target": "Package",
             "version": "[3.0.2, )"
           }

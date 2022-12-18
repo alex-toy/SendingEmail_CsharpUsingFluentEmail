@@ -1,0 +1,12 @@
+C:\source\CsharpLibraries\SendingEmail_CsharpUsingFluentEmail\EmailDemoApp\Emails\bin\Debug\net5.0\Emails.deps.json
+C:\source\CsharpLibraries\SendingEmail_CsharpUsingFluentEmail\EmailDemoApp\Emails\bin\Debug\net5.0\Emails.dll
+C:\source\CsharpLibraries\SendingEmail_CsharpUsingFluentEmail\EmailDemoApp\Emails\bin\Debug\net5.0\Emails.pdb
+C:\source\CsharpLibraries\SendingEmail_CsharpUsingFluentEmail\EmailDemoApp\Emails\obj\Debug\net5.0\Emails.csproj.AssemblyReference.cache
+C:\source\CsharpLibraries\SendingEmail_CsharpUsingFluentEmail\EmailDemoApp\Emails\obj\Debug\net5.0\Emails.GeneratedMSBuildEditorConfig.editorconfig
+C:\source\CsharpLibraries\SendingEmail_CsharpUsingFluentEmail\EmailDemoApp\Emails\obj\Debug\net5.0\Emails.AssemblyInfoInputs.cache
+C:\source\CsharpLibraries\SendingEmail_CsharpUsingFluentEmail\EmailDemoApp\Emails\obj\Debug\net5.0\Emails.AssemblyInfo.cs
+C:\source\CsharpLibraries\SendingEmail_CsharpUsingFluentEmail\EmailDemoApp\Emails\obj\Debug\net5.0\Emails.csproj.CoreCompileInputs.cache
+C:\source\CsharpLibraries\SendingEmail_CsharpUsingFluentEmail\EmailDemoApp\Emails\obj\Debug\net5.0\Emails.dll
+C:\source\CsharpLibraries\SendingEmail_CsharpUsingFluentEmail\EmailDemoApp\Emails\obj\Debug\net5.0\refint\Emails.dll
+C:\source\CsharpLibraries\SendingEmail_CsharpUsingFluentEmail\EmailDemoApp\Emails\obj\Debug\net5.0\Emails.pdb
+C:\source\CsharpLibraries\SendingEmail_CsharpUsingFluentEmail\EmailDemoApp\Emails\obj\Debug\net5.0\ref\Emails.dll

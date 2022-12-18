@@ -7,17 +7,9 @@ Sending transactional emails in C# is a fairly common practice. Instead of strug
 
 ## Create projects
 
-### Add Nuget Packages in SBSender
+### Add Nuget Packages in EmailDemo
 ```
-Install-Package Microsoft.Azure.ServiceBus
-```
-
-### Add Nuget Packages in SBReceiver
-```
-Install-Package Microsoft.Azure.ServiceBus
+Install-Package Fluent.Email.Smtp
 ```
 
-
-## Azure Service Bus
-
-<img src="/pictures/azure_service_bus.png" title="azure service bus"  width="800">
+<img src="/pictures/received_mail.png" title="received mail"  width="600">
